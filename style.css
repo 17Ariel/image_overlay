@@ -1,0 +1,41 @@
+:root{
+    --primary:hsla(300, 76%, 72%,.65);
+    --info:hsla(197, 71%, 73%,.65);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Poppins;
+}
+
+.container{
+    background: linear-gradient(135deg,var(--primary),var(--info)),url('img/img_2.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size: 7rem;
+    color: #fff;
+}
+
+.box{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    background: url('img/img_2.jpg');
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color:transparent;
+    font-size: 7rem;
+}
